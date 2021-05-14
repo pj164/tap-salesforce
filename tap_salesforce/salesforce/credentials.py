@@ -77,7 +77,7 @@ class SalesforceAuthOAuth(SalesforceAuth):
 
     @property
     def _login_url(self):
-        login_url = 'https://login.salesforce.com/services/oauth2/token'
+        login_url = 'https://episerver--fullnew.lightning.force.com/services/oauth2/token'
 
         if self.is_sandbox:
             login_url = 'https://test.salesforce.com/services/oauth2/token'
